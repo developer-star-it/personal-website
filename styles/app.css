@@ -76,9 +76,8 @@ ul {
     align-items: center;
     justify-content: center;
     font-family: "Poppins Semibold";
-    color: var(--app-bg-color);
     background-color: var(--primary-color);
-
+color: #fff;
     width: 20rem;
     height: 6rem;
     border-radius: 10rem;
