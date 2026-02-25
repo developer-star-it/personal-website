@@ -83,11 +83,6 @@
         font-size: 3.2rem;
     }
 
-    .btn {
-        width: 13rem;
-        height: 4.5rem;
-    }
-
 
 
     .home {
@@ -403,6 +398,10 @@
 
     .price .row {
         padding-bottom: 8rem;
+    }
+
+    .price-head__title{
+        font-size: 3rem;
     }
 }
 

@@ -78,7 +78,7 @@ ul {
     font-family: "Poppins Semibold";
     color: var(--app-bg-color);
     background-color: var(--primary-color);
-    box-shadow: 0 2rem 3rem rgba(11, 190, 173, 0.4);
+
     width: 20rem;
     height: 6rem;
     border-radius: 10rem;
@@ -90,17 +90,17 @@ ul {
 
 .btn--orange {
     background-color: var(--secondary-color);
-    box-shadow: 0 2rem 3rem rgba(245, 127, 23, 0.24);
+
 }
 
 .btn--purple {
     background-color: #803AFB;
-    box-shadow: 0 2rem 3rem rgba(128, 58, 251, 0.24);
+
 }
 
 .btn--pink {
     background-color: #EC407A;
-    box-shadow: 0 2rem 3rem rgba(236, 64, 122, 24%);
+ 
 }
 
 
@@ -247,7 +247,7 @@ Header Css
     margin: 0;
 }
 
-.menu__wrapper{
+.menu__wrapper {
     display: flex;
     align-items: center;
     column-gap: 2rem;
@@ -256,7 +256,7 @@ Header Css
 .menu {
     display: flex;
     z-index: 100;
-   align-items: center;
+    align-items: center;
 }
 
 
@@ -430,8 +430,25 @@ Header Css
     gap: 3rem;
 }
 
+.home__link {
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+}
 
-.home__link {}
+.home__links-wrapper .home__link:first-child:hover {
+    box-shadow: 0 1.2rem 3rem rgba(11, 190, 173, 0.4);
+}
+
+.home__links-wrapper .home__link:last-child:hover {
+    box-shadow: 0 1.2rem 3rem rgba(245, 127, 23, 0.24);
+}
+
+
+
+
 
 .home__photo {
     width: 48rem;
@@ -547,6 +564,23 @@ Header Css
     display: flex;
     gap: 3rem;
     margin-top: 4rem;
+}
+
+
+.about__link {
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+}
+
+.about__links-wrapper .about__link:first-child:hover {
+    box-shadow: 0 1.2rem 3rem rgba(11, 190, 173, 0.4);
+}
+
+.about__links-wrapper .about__link:last-child:hover {
+    box-shadow: 0 1.2rem 3rem rgba(245, 127, 23, 0.24);
 }
 
 
@@ -853,7 +887,8 @@ Header Css
 .portfolio {
     background-color: var(--section-bg-color);
 }
-.portfolio__wrapper{
+
+.portfolio__wrapper {
     padding-bottom: 15rem;
 }
 
@@ -900,7 +935,7 @@ Header Css
 
 .portfolio-content--show {
     opacity: 1;
-    height:auto;
+    height: auto;
 }
 
 
@@ -950,6 +985,8 @@ Header Css
     background-color: var(--app-bg-color);
 }
 
+
+
 .price .section-head {
     padding-top: 1rem;
 }
@@ -991,6 +1028,8 @@ Header Css
     align-items: center;
 }
 
+
+
 .price-list {}
 
 .price-list__item {
@@ -1012,7 +1051,29 @@ Header Css
     margin-bottom: 0;
 }
 
-.price-card__btn {}
+.price-card__btn1,.price-card__btn2,.price-card__btn3{
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    color:#fff;
+}
+
+.price-card__btn1:hover {
+    box-shadow: 0 1rem 3rem rgba(245, 127, 23, 0.24);
+}
+
+.price-card__btn2:hover {
+     box-shadow: 0 1rem 3rem rgba(128, 58, 251, 0.24);
+}
+
+.price-card__btn3:hover {
+       box-shadow: 0 1rem 3rem rgba(236, 64, 122, 24%);
+}
+
+
+
 
 .price .row {
     padding-bottom: 12rem;
@@ -1113,8 +1174,16 @@ Header Css
     border-radius: 10rem;
     font-family: "Poppins Semibold";
     font-size: 1.8rem;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
 }
 
+.contact__btn:hover{
+       box-shadow: 0 1rem 3rem rgba(11, 190, 173, 0.4);
+}
 
 /*
 
@@ -1167,13 +1236,13 @@ Header Css
     -o-transition: all 100ms ease-in;
 }
 
-.change-theme--header{
+.change-theme--header {
     width: 4rem;
     height: 4rem;
     background-color: #BFBEBE;
 }
 
-.change-theme--header--dark{
+.change-theme--header--dark {
     background-color: #161D26;
 }
 
