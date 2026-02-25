@@ -395,9 +395,9 @@
         padding: 3rem 0;
     }
 
-    .portfolio-content {
-        padding-bottom: 5rem;
-    }
+.portfolio__wrapper{
+    padding-bottom: 6rem;
+}
 
   
 

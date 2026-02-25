@@ -853,7 +853,9 @@ Header Css
 .portfolio {
     background-color: var(--section-bg-color);
 }
-
+.portfolio__wrapper{
+    padding-bottom: 15rem;
+}
 
 .portfolio-list {
     display: flex;
@@ -893,12 +895,12 @@ Header Css
     -moz-transition: opacity 0.2s ease-in;
     -ms-transition: opacity 0.2s ease-in;
     -o-transition: opacity 0.2s ease-in;
-    padding-bottom: 5rem;
+
 }
 
 .portfolio-content--show {
     opacity: 1;
-    height: auto;
+    height:auto;
 }
 
 
@@ -908,6 +910,7 @@ Header Css
 
 .portfolio-content__img {
     width: 100%;
+    height: 100%;
 }
 
 .swiper-slide {}
